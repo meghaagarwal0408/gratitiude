@@ -1,91 +1,3 @@
-Last login: Sat Feb  7 08:34:34 on console
-cdc %                                                                           ^R  
-megha.agarwal@meghaag-ltmve93 ~ % cd ~/Documents 
-megha.agarwal@meghaag-ltmve93 Documents % ls
-a.csv					pdf.pdf
-A.pdf					physio bill.pdf
-AdSystemDesign.excalidraw		podcast system design.drawio
-Animated				Portrait
-Atlassian.png				Printouts 
-B.pdf					Prints
-BookMyShow.pdf				Projects
-C.pdf					RetailTriggers
-Code					RetailTriggers.drawio
-Coding Print 2 				Rule Evaluator.pdf
-CoffeeMachine.pdf			Saroj Garg Pan.pdf
-CollaborativeTool.excalidraw		Splitwise.pdf
-CollaborativeTool.png			ticketmasster.excalidraw
-Design.drawio				TicketMaster.png
-Detailed Coding				trendingVideo.png
-Email					Untitled-2026-01-24-1819.excalidraw.png
-gratitude-series			Untitled.pdf
-homeopathy 1.pdf			UserIdCount.excalidraw
-homeopathy.pdf				VendingMachine.pdf
-In Memory Key Value Store.pdf		Videos
-JavaBasics.pdf				YoutubeTopK.excalidraw
-notification.drawio			Zoom
-megha.agarwal@meghaag-ltmve93 Documents % cd Email 
-megha.agarwal@meghaag-ltmve93 Email % ls
-megha.agarwal@meghaag-ltmve93 Email % vi email1.html
-megha.agarwal@meghaag-ltmve93 Email % vi story.html
-megha.agarwal@meghaag-ltmve93 Email % 
-megha.agarwal@meghaag-ltmve93 Email % 
-megha.agarwal@meghaag-ltmve93 Email % git remote add origin https://github.com/meghaagarwal0408/gratitiude.git
-
-fatal: not a git repository (or any of the parent directories): .git
-megha.agarwal@meghaag-ltmve93 Email % git init
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: will change to "main" in Git 3.0. To configure the initial branch name
-hint: to use in all of your new repositories, which will suppress this warning,
-hint: call:
-hint:
-hint: 	git config --global init.defaultBranch <name>
-hint:
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint:
-hint: 	git branch -m <name>
-hint:
-hint: Disable this message with "git config set advice.defaultBranchName false"
-Initialized empty Git repository in /Users/megha.agarwal/Documents/Email/.git/
-megha.agarwal@meghaag-ltmve93 Email % git status
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	email1.html
-	story.html
-
-nothing added to commit but untracked files present (use "git add" to track)
-megha.agarwal@meghaag-ltmve93 Email % git add .
-megha.agarwal@meghaag-ltmve93 Email % git commit -m "Story"
-[master (root-commit) 0002fc5] Story
- 2 files changed, 144 insertions(+)
- create mode 100644 email1.html
- create mode 100644 story.html
-megha.agarwal@meghaag-ltmve93 Email % git remote add origin https://github.com/meghaagarwal0408/gratitiude.git
-
-megha.agarwal@meghaag-ltmve93 Email % git branch -M main
-
-megha.agarwal@meghaag-ltmve93 Email % git push -u origin main
-Username for 'https://github.com': meghaagarwal0408
-Password for 'https://meghaagarwal0408@github.com': 
-remote: Invalid username or token. Password authentication is not supported for Git operations.
-fatal: Authentication failed for 'https://github.com/meghaagarwal0408/gratitiude.git/'
-megha.agarwal@meghaag-ltmve93 Email % git push -u origin main
-Username for 'https://github.com': meghaagarwwal0408
-Password for 'https://meghaagarwwal0408@github.com': 
-remote: Invalid username or token. Password authentication is not supported for Git operations.
-fatal: Authentication failed for 'https://github.com/meghaagarwal0408/gratitiude.git/'
-megha.agarwal@meghaag-ltmve93 Email % git push -u origin main
-Username for 'https://github.com': meghaagarwal0408
-Password for 'https://meghaagarwal0408@github.com': 
-remote: Invalid username or token. Password authentication is not supported for Git operations.
-fatal: Authentication failed for 'https://github.com/meghaagarwal0408/gratitiude.git/'
-megha.agarwal@meghaag-ltmve93 Email % vi story.html                                                           
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,4 +31,80 @@ megha.agarwal@meghaag-ltmve93 Email % vi story.html
     }
 
     .subtitle {
-"story.html" 111L, 2410B
+        text-align: center;
+        font-style: italic;
+        color: #7a5c5c;
+        margin-bottom: 45px;
+    }
+
+    h2 {
+        font-weight: normal;
+        margin-top: 40px;
+        color: #5a3e3e;
+    }
+
+    p {
+        margin-top: 12px;
+        font-size: 17px;
+    }
+
+    .closing {
+        margin-top: 55px;
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
+        color: #5a3e3e;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Our Story</h1>
+    <div class="subtitle">Not written for a day. Written for everything.</div>
+
+    <h2>When I Lost Focus</h2>
+    <p>
+        There were days I drifted.
+        You didn’t let me.
+        You scolded me—not to control me,
+        but because you believed in me.
+    </p>
+
+    <h2>When Time Was Against Me</h2>
+    <p>
+        You saved my time by stepping in.
+        You helped with the kids.
+        You created an environment where preparation was possible.
+    </p>
+
+    <h2>When I Needed Direction</h2>
+    <p>
+        You analyzed the market.
+        You discussed roles and timing.
+        You helped me prepare and negotiate when I felt unsure.
+    </p>
+
+    <h2>When I Broke</h2>
+    <p>
+        When I broke, you motivated me.
+        When I was lost, you supported me.
+        When I felt I was nothing,
+        you spoke about me with pride.
+    </p>
+
+    <h2>When I Rose</h2>
+    <p>
+        You were the happiest person watching me rise.
+        And the most tense when my work didn’t reflect my worth.
+        That says everything.
+    </p>
+
+    <div class="closing">
+        Thank you for being my side — every single day.
+    </div>
+</div>
+
+</body>
+</html>
